@@ -75,10 +75,16 @@ img {
 }
 
 #tp-grid li{
-   margin: 0 2em 3em 5em;
+   margin-bottom: 10em;
 }
 
 #close {
     background: white;
+    margin-top: 5em;
+}
+
+#close:hover {
+    background: #C2E078;
+    color: black;
 }
 
