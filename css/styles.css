@@ -70,3 +70,15 @@ p, h3, a {
             Photo Gallery
 ==========================*/
 
+img {
+    width: 15em;
+}
+
+#tp-grid li{
+   margin: 0 2em 3em 5em;
+}
+
+#close {
+    background: white;
+}
+
