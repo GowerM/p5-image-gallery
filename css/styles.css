@@ -1,4 +1,46 @@
-/* Gallery Styling */
+/*====================
+        Basics
+======================*/
+
+body {
+    background: #005682;
+}
+
+a {
+    color: #FFF6CC;
+}
+
+a:hover {
+    color: #FF9900;
+}
+
+h1,
+p {
+    color: #BADCDD;
+}
+
+a h1:hover {
+    font-family: 'redactedregular'
+}
+
+.button {
+    background: #212B40;
+
+}
+
+.button:hover {
+    background: #BADCDD;
+    color: black;
+}
+
+p, h3, a {
+    font-family: 'redactedregular';
+}
+
+
+/*=================== 
+    index Styling 
+======================*/
 
 .gallery .th {
 	float: left;
@@ -7,9 +49,9 @@
 
 .large-6,
 .large-3 {
-	-moz-transition: width .25s .5s;
-	-webkit-transition: width .25s .5s;
-	transition: width .25s .5s;
+	-moz-transition: width .25s .1s;
+	-webkit-transition: width .25s .1s;
+	transition: width .25s .1s;
 }
 
 /* Wireframing Font */
@@ -24,8 +66,7 @@
     font-style: normal;
 }
 
-/* 
-p, h3, a {
-	font-family: 'redactedregular';
-}
-*/
+/*=======================
+            Photo Gallery
+==========================*/
+
